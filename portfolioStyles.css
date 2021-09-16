@@ -1,0 +1,104 @@
+/* about page  */
+
+#about-page{
+background-color: black;
+min-width: 600px;
+min-height: 600px;
+}
+
+.about-text p{
+position:relative;
+top:20px;
+display:flex;
+flex-direction: row;
+max-width: 45%;
+font-weight: lighter;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+color: rgb(224, 224, 224);
+padding:5px;
+margin:20px;
+background-color: transparent;
+
+}
+
+.portrait-container{
+display:flex;
+flex-direction: row-reverse;
+padding: 25px;
+opacity:69%;
+}
+
+.portrait-container img {
+width:70%;
+height:70%;
+
+}
+
+.about-social li a {
+ color: rgb(224, 224, 224);
+ font-size: smaller;  
+ font-weight: small;
+ font-family: 'Montserrat', sans-serif;
+ position: relative;
+ bottom:70px;
+}
+
+/* main page */
+
+html{
+    background-color: rgb(90, 90, 90);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main-container{
+display: flex;
+flex-direction:row-reverse;
+justify-content: space-around;
+width:100%;
+height:900px;
+}
+
+#right-container{
+display:flex;
+flex-direction: column;
+float:right;
+justify-content:space-around;
+}
+
+#left-container{
+    display:flex;
+    flex-direction: column;
+    float:left;
+    justify-content:space-around;
+}
+
+.greeting{
+color: rgb(224, 224, 224);
+margin-top: 25%;
+line-height: 0%;
+text-align: end;
+}
+
+.greeting h1{
+font-size: 5rem;
+
+}
+
+.project-links{
+    color:rgb(224, 224, 224);
+    margin-right: 20%;
+    text-align: right;
+    text-decoration: underline;
+    text-decoration-color:black;
+    font-size:2.5rem ;
+}
+
+.project-links a:visited {
+color: rgb(224, 224, 224);
+text-decoration-color: black;
+}
+
+.project-links a:hover {
+   color:rgba(224, 224, 224, 0.377)
+}
