@@ -47,7 +47,7 @@ height:70%;
 /* main page */
 
 html{
-    background-color: rgb(90, 90, 90);
+    background-color: rgb(65, 65, 65);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -57,6 +57,7 @@ flex-direction:row-reverse;
 justify-content: space-around;
 width:100%;
 height:900px;
+flex-shrink: auto;
 }
 
 #right-container{
@@ -77,12 +78,13 @@ justify-content:space-around;
 color: rgb(224, 224, 224);
 margin-top: 25%;
 line-height: 0%;
-text-align: end;
+text-align: center;
 }
 
 .greeting h1{
 font-size: 5rem;
-
+line-height:2px;
+margin:60px;
 }
 
 .project-links{
@@ -102,3 +104,97 @@ text-decoration-color: black;
 .project-links a:hover {
    color:rgba(224, 224, 224, 0.377)
 }
+
+button{
+    position: relative;
+    left:40%;
+    bottom:280%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: transparent;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    border-radius: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.follow li a {
+    color: rgb(224, 224, 224);
+    font-size: smaller;  
+    font-weight: small;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    bottom:70px;
+    list-style-type: none;
+   }
+    ::marker{
+       color:transparent
+   }
+/* project pages */
+.project{
+color:rgb(65, 65, 65);
+background-color:rgb(224, 224, 224);
+font-family: 'Montserrat', sans-serif;
+display:flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+}
+
+.info,.wrap,.screen-shot,p,h1,h2{
+    justify-content: center;
+    text-align: center;
+}
+.wrap{
+    max-width:75%;
+    align-content: center;
+    display:flex;
+    flex-wrap: wrap;
+    margin:auto;
+
+}
+
+.details {
+    display:flex;
+    justify-content: center;
+    padding:20px;
+    margin:0 auto;
+
+}
+.screen-shot img{
+    justify-content: space-evenly;
+    align-content: center;
+    max-width:55%;
+    max-height: 55%;
+    border-radius: 7px;
+}
+.tech-used-col h2 {
+text-align:start;
+}
+.team-col h2 {
+text-align: end;
+}
+.next-project{
+    color:rgb(224, 224, 224);
+    margin-right: 20%;
+    text-align: right;
+    text-decoration: none;
+    text-decoration-color:none;
+    font-size:2.5rem ;
+    justify-content: center;
+}
+.next-project a:visited {
+    color: rgb(65, 65, 65);
+    text-decoration: none;
+    }
+.next-project a:hover {
+    color:rgba(75, 75, 75, 0.377)
+ }
