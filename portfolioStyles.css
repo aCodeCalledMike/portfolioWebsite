@@ -178,3 +178,7 @@ text-align: end;
 .next-project a:hover {
     color:rgba(75, 75, 75, 0.377)
  }
+ a:-webkit-any-link {
+    color: none;
+    cursor: pointer;
+}
