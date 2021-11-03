@@ -4,7 +4,7 @@
 display:flex;
 flex-wrap: wrap;
 flex-direction: row;
-background-color: black;
+background-color: rgb(27, 27, 27);
 min-width: 600px;
 min-height: 600px;
 justify-content: center;
@@ -14,10 +14,10 @@ justify-content: center;
     display:flex;
     flex-wrap: wrap;
     max-width: 60%;
-    font-weight: lighter;
+    font-weight:normal;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    color: rgb(224, 224, 224);
+    color: rgb(199, 199, 199);
     padding:5px;
      background-color: transparent;
     columns:1;
@@ -37,8 +37,9 @@ justify-content: center;
 }
 
 .portrait-container img {
-    max-height: 75%;
-    max-width: 75%;
+    max-height: 25%;
+    max-width: 35%;
+    padding-bottom: 25px;
 }
 
 
@@ -46,14 +47,14 @@ justify-content: center;
 /* main page */
 
 html{
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(226, 226, 226);
     font-family: 'Montserrat', sans-serif;
 }
 
 
 
 .greeting{
-color: rgb(224, 224, 224);
+color: rgb(148, 148, 148);
 line-height: 3%;
 text-align: center;
 }
@@ -69,23 +70,28 @@ margin:60px;
 }
 
 .project-links{
-    color:rgb(224, 224, 224);
+    color:rgb(94, 94, 94);
     
     text-align: center;
     text-decoration: underline;
     text-decoration-color:black;
-    font-size:2.5rem ;
+    font-size:0.75rem ;
+
 }
 
 .project-links a:visited {
-color: rgb(224, 224, 224);
+color: rgb(94, 94, 94);
 text-decoration-color: black;
 }
 
 .project-links a:hover {
-   color:rgba(224, 224, 224, 0.377)
+   color:rgba(46, 46, 46, 0.377)
 }
+.about-button {
+    justify-content: center;
+    text-align: center;
 
+}
 button{
     
     
@@ -132,6 +138,9 @@ justify-content: center;
 .info,.wrap,.screen-shot,p,h1,h2{
     justify-content: center;
     text-align: center;
+    
+
+
 }
 .wrap{
     max-width:75%;
@@ -139,7 +148,7 @@ justify-content: center;
     display:flex;
     flex-wrap: wrap;
     margin:auto;
-
+    max-width: 500px;
 }
 
 .details {
@@ -179,6 +188,18 @@ text-align: end;
     color:rgba(75, 75, 75, 0.377)
  }
  a:-webkit-any-link {
-    color: none;
+    color: rgb(122, 122, 122);
     cursor: pointer;
+}
+header{
+max-height: 30%;
+}
+footer{
+    max-height: 30%;
+}
+body{
+    min-height: 60%;
+}
+.content{
+    padding-top: 70%;
 }
